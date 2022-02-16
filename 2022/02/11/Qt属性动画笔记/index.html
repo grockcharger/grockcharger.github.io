@@ -85,7 +85,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">75</span>
+            <span class="post-count">93</span>
         </span>
     </span>
 
@@ -107,7 +107,7 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">set_animation</span>(<span class="params">self</span>):</span></span><br><span class="line">    <span class="comment"># logo动画</span></span><br><span class="line">    animation = QPropertyAnimation(self)</span><br><span class="line">    animation.setTargetObject(self)</span><br><span class="line">    animation.setPropertyName(<span class="string">b&quot;windowOpacity&quot;</span>)</span><br><span class="line">    animation.setStartValue(<span class="number">1</span>)</span><br><span class="line">    animation.setEndValue(<span class="number">0</span>)</span><br><span class="line">    <span class="comment"># 动画时长</span></span><br><span class="line">    animation.setDuration(<span class="number">3000</span>)  <span class="comment"># 3s</span></span><br><span class="line">    <span class="comment"># 设置动画曲线</span></span><br><span class="line">    animation.setEasingCurve(QEasingCurve.InQuart)</span><br><span class="line">    <span class="comment"># 开启动画</span></span><br><span class="line">    animation.start()</span><br><span class="line">    animation.finished.connect(<span class="keyword">lambda</span>: self.close())</span><br></pre></td></tr></table></figure>
+  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">set_animation</span>(<span class="params">self</span>):</span></span><br><span class="line">    <span class="comment"># logo动画</span></span><br><span class="line">    animation = QPropertyAnimation(self)</span><br><span class="line">    animation.setTargetObject(self)</span><br><span class="line">    animation.setPropertyName(<span class="string">b&quot;windowOpacity&quot;</span>) <span class="comment"># 设置要动画的属性，此处是widget窗口的透明度</span></span><br><span class="line">    animation.setStartValue(<span class="number">1</span>)</span><br><span class="line">    animation.setEndValue(<span class="number">0</span>)</span><br><span class="line">    <span class="comment"># 动画时长</span></span><br><span class="line">    animation.setDuration(<span class="number">3000</span>)  <span class="comment"># 3s</span></span><br><span class="line">    <span class="comment"># 设置动画曲线</span></span><br><span class="line">    animation.setEasingCurve(QEasingCurve.InQuart)</span><br><span class="line">    <span class="comment"># 开启动画</span></span><br><span class="line">    animation.start()</span><br><span class="line">    animation.finished.connect(<span class="keyword">lambda</span>: self.close())</span><br></pre></td></tr></table></figure>
 
 
 
@@ -296,13 +296,13 @@
   <div class="reward-box">
     
     <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.jpg">
+      <img class="reward-img" src="https://cdn.jsdelivr.net/gh/grockcharger/cdn/img/alipay.jpg">
       <span class="reward-type">支付宝</span>
     </div>
     
     
     <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.jpg">
+      <img class="reward-img" src="https://cdn.jsdelivr.net/gh/grockcharger/cdn/img/wechat.jpg">
       <span class="reward-type">微信</span>
     </div>
     
